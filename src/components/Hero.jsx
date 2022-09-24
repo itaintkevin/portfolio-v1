@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from './profile.jpg'
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
 
 const Hero = () => {
@@ -39,17 +40,21 @@ const Hero = () => {
           </div>
         </div>
     </div> */}
-    <div className='flex flex-col items-center'>
+    <div className='relative flex flex-col items-center'>
+      <div className='absolute top-0 -left-4 w-72 h-72 rounded-full mix-blend-screen animate-blob opacity-20 filter blur-3xl bg-[#7F7FD5]'></div>
+      <div className='absolute top-0 -right-4 w-72 h-72 rounded-full mix-blend-screen animate-blob opacity-20 filter blur-3xl bg-[#91EAE4]'></div>
+      <div className='absolute left-20 -bottom-8 w-72 h-72 rounded-full mix-blend-screen animate-blob opacity-20 filter blur-3xl bg-[#86A8E7]'></div>
+      <div><img className="rounded-full w-48 h-48 drop-shadow-2xl my-5" src={Profile} alt="Profile" /></div>
       <div className='text-4xl'>Hey!</div>
       <div className='text-5xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl'>I'm Kevin Paul</div>
-      <div className='grid gap-4 grid-cols-2 grid-rows-2 w-3/6 my-5'>
+      <div className='grid gap-4 grid-cols-2 grid-rows-2 w-max my-5'>
         <div className='flex items-center'><AiOutlineGithub/>&nbsp;Github</div>
         <div className='flex items-center'><AiOutlineLinkedin/>&nbsp;Linkedin</div>
         <div className='flex items-center'><AiOutlineTwitter/>&nbsp;Twitter</div>
         <div className='flex items-center'><AiOutlineInstagram/>&nbsp;Instagram</div>
       </div>
-      <div className='w-full my-5'>
-        <div className='bg-[#91EAE4] absolute rounded-xl mx-5 p-5'>
+      <div className='flex justify-center w-full my-5'>
+        <div className='bg-[#91EAE4] absolute text-md rounded-xl mx-5 p-5'>
               Curently learning Backend Web Developement.🤌
               <br/>
               Exploring Web3 and Blockchain Technology.⛓️
@@ -58,7 +63,7 @@ const Hero = () => {
               <br/>
               Computer Science Engineering student at SRMIST, India.🏛️
         </div>
-        <div className='bg-[#86A8E7] translate-y-4 absolute rounded-xl mx-5 p-5'>
+        <div className='bg-[#86A8E7] translate-y-4 absolute text-md rounded-xl mx-5 p-5'>
         `     Curently learning Backend Web Developement.🤌
               <br/>
               Exploring Web3 and Blockchain Technology.⛓️
