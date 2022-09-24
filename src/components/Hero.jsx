@@ -51,7 +51,7 @@ const Hero = () => {
         <a className='flex items-center' href="https://github.com/itaintkevin"><AiOutlineGithub/>&nbsp;Github</a>
         <a className='flex items-center' href="https://www.linkedin.com/in/itaintkevin"><AiOutlineLinkedin/>&nbsp;Linkedin</a>
         <a className='flex items-center' href="https://twitter.com/it_aint_kevin"><AiOutlineTwitter/>&nbsp;Twitter</a>
-        <a className='flex items-center' href="><AiOutlineInstagram/>&nbsp;Instagram</a>
+        <a className='flex items-center' href=""><AiOutlineInstagram/>&nbsp;Instagram</a>
       </div>
       <div className='flex justify-center w-full my-5'>
         <div className='bg-[#91EAE4] absolute text-md rounded-xl mx-5 p-5'>
