@@ -41,9 +41,6 @@ const Hero = () => {
         </div>
     </div> */}
     <div className='relative flex flex-col items-center'>
-      <div className='absolute top-0 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#7F7FD5]'></div>
-      <div className='absolute top-0 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#91EAE4]'></div>
-      <div className='absolute left-10 -bottom-8 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#86A8E7]'></div>
       <div><img className="rounded-full w-48 h-48 drop-shadow-2xl my-5" src={Profile} alt="Profile" /></div>
       <div className='text-4xl'>Hey!</div>
       <div className='text-5xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl'>I'm Kevin Paul</div>
