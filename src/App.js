@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-    <div className="h-screen m-auto z-10">
+    <div className="h-screen m-auto">
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
