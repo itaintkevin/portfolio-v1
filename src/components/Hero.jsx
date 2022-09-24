@@ -50,7 +50,8 @@ const Hero = () => {
         <div><a className='flex items-center' href="https://twitter.com/it_aint_kevin"><AiOutlineTwitter/>&nbsp;Twitter</a></div>
         <div><a className='flex items-center' href=""><AiOutlineInstagram/>&nbsp;Instagram</a></div>
       </div>
-      <div className='flex flex-col justify-center w-full mt-5 mb-36'>
+      <div className='flex flex-col items-center w-full mt-5 mb-40'>
+        <div className='text-4xl my-16'>About Me</div>
         <div className='ease-in delay-1000 bg-[#91EAE4] text-md rounded-xl mx-5 pt-4'>
           <div className='ease-in delay-1000 bg-[#86A8E7] text-md rounded-xl w-full'>
             <div className='ease-in delay-1000 bg-[#2c2f3d] translate-y-4 text-md rounded-xl drop-shadow-2xl w-full p-5 z-10'>

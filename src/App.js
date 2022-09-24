@@ -10,11 +10,11 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-    <div className="">
+    <div className="w-screen scroll-smooth">
       <div className='fixed top-20 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#7F7FD5]'></div>
       <div className='fixed top-20 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#91EAE4]'></div>
-      <div className='fixed -bottom-10 left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#7F7FD5]'></div>
-      <div className='fixed -bottom-10 right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#91EAE4]'></div>
+      <div className='fixed -bottom-10 left-8 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#7F7FD5]'></div>
+      <div className='fixed -bottom-10 right-8 w-72 h-72 rounded-full mix-blend-difference animate-blob opacity-25 filter blur-3xl bg-[#91EAE4]'></div>
       <Navbar />
       <Hero />
       <Experience />
