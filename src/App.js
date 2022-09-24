@@ -10,15 +10,17 @@ import Contact from './components/Contact';
 function App() {
   return (
     <>
-    <div>
+    <div className="">
       <Navbar />
-      <Routes>
+      <Hero />
+      <Experience />
+      {/* <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/" element={<Skills />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
-      </Routes> 
+      </Routes>  */}
       <Footer />
     </div>
     </>
