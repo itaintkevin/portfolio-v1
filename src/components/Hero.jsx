@@ -50,7 +50,7 @@ const Hero = () => {
       <div className='grid gap-4 grid-cols-2 grid-rows-2 w-max my-5'>
         <div><a className='flex items-center' href="https://github.com/itaintkevin"><AiOutlineGithub/>&nbsp;Github</a></div>
         <div><a className='flex items-center' href="https://www.linkedin.com/in/itaintkevin"><AiOutlineLinkedin/>&nbsp;Linkedin</a></div>
-        <div><a className='flex items-center' href="https://twitter.com/it_aint_kevin"><AiOutlineTwitter/>&nbsp;Twitter</a></div><a className='flex items-center' href="https://twitter.com/it_aint_kevin"><AiOutlineTwitter/>&nbsp;Twitter</a>
+        <div><a className='flex items-center' href="https://twitter.com/it_aint_kevin"><AiOutlineTwitter/>&nbsp;Twitter</a></div>
         <div><a className='flex items-center' href=""><AiOutlineInstagram/>&nbsp;Instagram</a></div>
       </div>
       <div className='flex justify-center w-full my-5'>
