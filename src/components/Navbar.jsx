@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from './profile.jpg'
+import Profile from './pro.jpeg'
 
 const Navbar = () => {
   return (
