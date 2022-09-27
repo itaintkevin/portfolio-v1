@@ -18,6 +18,8 @@ function App() {
       <Navbar />
       <Hero />
       <Experience />
+      <Skills />
+      <Projects />
       {/* <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/" element={<Skills />} />

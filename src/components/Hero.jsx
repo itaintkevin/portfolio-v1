@@ -1,5 +1,5 @@
 import React from 'react';
-import Profile from './pro.jpeg'
+import Profile from './profile.jpg'
 import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
 
 const Hero = () => {

@@ -1,6 +1,7 @@
 import React from 'react'
 import details from './ExpDetails.jsx'
 import { TbExternalLink } from 'react-icons/tb'
+import { IoIosRocket } from 'react-icons/io';
 
 const Experience = () => {
   return (
@@ -11,7 +12,7 @@ const Experience = () => {
           return(
             <div className='bg-[#2c2f3d] text-md rounded-xl drop-shadow-2xl w-full my-3 p-5'>
               <div className='flex justify-between my-2'>
-                <div className='font-semibold text-sm'>{detail.field}</div>
+                <div className='flex items-center font-semibold text-sm'><IoIosRocket className='inline-block mr-2'/>{detail.field}</div>
                 <TbExternalLink/>
               </div>
               <div className='flex items-center my-2'>
