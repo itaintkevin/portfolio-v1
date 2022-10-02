@@ -2,9 +2,9 @@ import { Routes, Route, Link } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
+import Skills from './components/skills/Skills';
+import Experience from './components/experience/Experience';
+import Projects from './components/projects/Projects';
 import Contact from './components/Contact';
 
 function App() {

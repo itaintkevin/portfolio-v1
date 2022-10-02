@@ -18,7 +18,8 @@ const details = [
         github: "https://github.com/itaintkevin/tedx-srmist-landing-page",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
-        stack2: "TailwindCSS"
+        stack2: "TailwindCSS",
+        stack: ["React.js","TailwindCSS"]
     },
     {
         title: "HackTheBox SRMIST",
@@ -27,7 +28,8 @@ const details = [
         github: "https://github.com/itaintkevin/hack-the-box-srmist",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
-        stack2: "CSS"
+        stack2: "CSS",
+        stack: ["React.js", "CSS"]
     },
     {
         title: "Estate",
@@ -36,7 +38,8 @@ const details = [
         github: "https://github.com/itaintkevin/Estate",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
-        stack2: "TailwindCSS"
+        stack2: "TailwindCSS",
+        stack: ["React.js","TailwindCSS"]
     },
     {
         title: "Resize",
@@ -46,7 +49,8 @@ const details = [
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
         stack1: "HTML",
         stack2: "CSS",
-        stack3: "JS"
+        stack3: "JS",
+        stack: ["HTML", "CSS", "JavaScript"]
     },
     {
         title: "Click!",
@@ -56,7 +60,8 @@ const details = [
         img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
         stack1: "HTML",
         stack2: "CSS",
-        stack3: "JS"
+        stack3: "JS",
+        stack: ["HTML", "CSS", "JavaScript"]
     }
 ]
 
