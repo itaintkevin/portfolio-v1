@@ -10,7 +10,7 @@ const Projects = () => {
       {
         details.map((detail) => {
           return(
-            <div className='bg-[#2c2f3d] text-md rounded-xl drop-shadow-2xl w-full my-3 p-5'>
+            <div className='bg-[#2c2f3d] text-md rounded-xl drop-shadow-2xl w-full my-3 p-5 scroll-smooth'>
               <div className='flex justify-between my-2'>
                 <div className='flex items-center font-semibold text-sm'><GiBrain className='inline-block mr-2'/>VIEW DEPLOYMENT</div>
                 <TbExternalLink/>
