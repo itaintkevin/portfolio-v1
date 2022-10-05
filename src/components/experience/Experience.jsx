@@ -5,7 +5,7 @@ import { IoIosRocket } from 'react-icons/io';
 
 const Experience = () => {
   return (
-    <div className='relative flex flex-col items-center mx-5'>
+    <div className='relative flex flex-col items-center mx-5 scroll-smooth'>
       <div className='text-4xl my-16'>Experience</div>
       {
         details.map((detail) => {

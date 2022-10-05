@@ -5,7 +5,7 @@ import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineTwitter, AiOutlineInstagra
 const Hero = () => {
   return (
     <>
-    <div className='relative flex flex-col items-center'>
+    <div className='relative flex flex-col items-center scroll-smooth'>
       <div><img className="rounded-full w-48 h-48 drop-shadow-2xl my-5" src={Profile} alt="Profile" /></div>
       <div className='text-4xl'>Hey!</div>
       <div className='text-5xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl'>I'm Kevin Paul</div>

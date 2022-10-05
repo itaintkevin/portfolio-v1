@@ -5,7 +5,7 @@ import { GiBrain } from 'react-icons/gi'
 
 const Projects = () => {
   return (
-    <div className='flex flex-col items-center drop-shadow-2xl mx-5'>
+    <div className='flex flex-col items-center drop-shadow-2xl mx-5 scroll-smooth'>
       <div className='text-4xl my-16'>Projects</div>
       {
         details.map((detail) => {
