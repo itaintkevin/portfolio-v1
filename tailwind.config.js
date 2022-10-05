@@ -9,10 +9,10 @@ module.exports = {
         'satisfy': ['Quicksand', 'sans-serif'],
       },
       animation: {
-        blob1: "blob1 6s infinite",
-        blob2: "blob2 6s infinite",
-        blob3: "blob3 6s infinite",
-        blob4: "blob4 6s infinite",
+        blob1: "blob1 10s infinite",
+        blob2: "blob2 10s infinite",
+        blob3: "blob3 10s infinite",
+        blob4: "blob4 10s infinite",
       },
       keyframes: {
         blob1: {
