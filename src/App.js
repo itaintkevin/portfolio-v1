@@ -11,11 +11,11 @@ function App() {
   return (
     <>
     <div className="w-screen scroll-smooth">
-      <div className='fixed top-10 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob1 opacity-25 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
-      <div className='fixed top-20 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob2 opacity-25 filter blur-3xl brightness-75 bg-[#91EAE4] -z-10'></div>
-      <div className='fixed bottom-40 -right-8 w-72 h-72 rounded-full mix-blend-difference animate-blob4 opacity-25 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
-      <div className='fixed bottom-20 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob3 opacity-25 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
-      <div className='fixed bottom-10 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob4 opacity-25 filter blur-3xl brightness-75 bg-[#91EAE4] -z-10'></div>
+      <div className='fixed top-10 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob1 opacity-20 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
+      <div className='fixed top-20 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob2 opacity-20 filter blur-3xl brightness-75 bg-[#91EAE4] -z-10'></div>
+      <div className='fixed bottom-40 -right-8 w-72 h-72 rounded-full mix-blend-difference animate-blob4 opacity-20 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
+      <div className='fixed bottom-20 -right-4 w-72 h-72 rounded-full mix-blend-difference animate-blob3 opacity-20 filter blur-3xl brightness-75 bg-[#7F7FD5] -z-10'></div>
+      <div className='fixed bottom-10 -left-4 w-72 h-72 rounded-full mix-blend-difference animate-blob4 opacity-20 filter blur-3xl brightness-75 bg-[#91EAE4] -z-10'></div>
       <Navbar />
       <Hero />
       <Experience />
