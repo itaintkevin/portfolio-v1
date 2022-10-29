@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import Home from "./pages/Home";
@@ -8,17 +9,20 @@ import Experience from "./pages/Experience";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar/>
       <Socials/>
-      {/* <div className="h-screen w-screen snap-y snap-mandatory overflow-scroll"> */}
-      <div className="w-screen overflow-x-hidden">
-        <div className="h-screen w-screen snap-start"><Home/></div>
-        <div className="h-screen w-screen snap-start"><Skills/></div>
-        <div className="h-screen w-screen snap-start"><Projects/></div>
-        <div className="h-screen w-screen snap-start"><Experience/></div>
+      <div className='overflow-x-hidden'>
+        <div><Home/></div>
+        <div><Skills/></div>
+        <div><Projects/></div>
+        <div><Experience/></div>
       </div>
-    </div>
+      {/* <Routes>
+        <Route path="/" element={<Home/>        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/experience" element={<Experience/>}/>
+      </Routes> */}
+    </>
   );
 }
 

@@ -3,9 +3,9 @@ import { FiLinkedin, FiGithub, FiTwitter, FiInstagram } from 'react-icons/fi'
 
 const Home = () => {
   return (
-    <div id="home" className='flex flex-col h-full w-full pl-[400px] text-2xl text-white justify-center'>
+    <div id="home" className='h-screen w-screen flex flex-col px-[400px] text-2xl text-white justify-center'>
         <div>Hi, I'm</div>
-        <div className='text-[#7F7FD5] text-8xl my-4'>Kevin Paul.</div>
+        <div className='from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl text-8xl my-4'>Kevin Paul.</div>
         <div className='text-[#91EAE4] text-7xl mb-5'>I am a Front-End Web Developer.</div>
         <div className='text-lg text-white'>
             Curently learning Backend Web Developement.

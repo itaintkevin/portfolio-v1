@@ -8,7 +8,6 @@ body {
     background-color: #191B24;
     font-family: 'Nunito', sans-serif;
     color: white;
-    height: 100vh;
 }
 
 body::-webkit-scrollbar {
