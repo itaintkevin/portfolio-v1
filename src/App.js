@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
+import Footer from './components/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <div><Skills/></div>
         <div><Projects/></div>
         <div><Experience/></div>
+        <div><Footer/></div>
       </div>
       {/* <Routes>
         <Route path="/" element={<Home/>        <Route path="/projects" element={<Projects/>}/>

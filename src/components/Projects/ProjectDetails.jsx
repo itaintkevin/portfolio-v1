@@ -32,6 +32,16 @@ const details = [
         stack: ["React.js", "CSS"]
     },
     {
+        title: "MovieLand",
+        about: "~ A Movies Search Application using API Endpoint.",
+        link: "https://movieland-itk.netlify.app",
+        github: "https://github.com/itaintkevin/MovieLand",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["React.js", "CSS"]
+    },
+    {
         title: "Estate",
         about: "~ Crowd Funded Real Estate NFT Marketplace.",
         link: "https://estate-one.vercel.app",
