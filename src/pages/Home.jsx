@@ -3,11 +3,11 @@ import { FiLinkedin, FiGithub, FiTwitter, FiInstagram, FiMail } from 'react-icon
 
 const Home = () => {
   return (
-    <div id="home" className='h-screen w-screen flex flex-col 2xl:px-96 xl:px-72 lg:px-64 sm:px-24 px-10 text-xl text-white justify-center'>
+    <div id="home" className='h-screen w-screen flex flex-col 2xl:px-96 xl:px-72 lg:px-64 sm:px-24 pl-6 pr-4 text-xl text-white justify-center'>
         <div>Hi, I'm</div>
         <div className='from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl xl:text-8xl lg:text-7xl sm:text-6xl text-5xl sm:my-4 my-2'>Kevin Paul.</div>
         <div className='text-[#91EAE4] 2xl:text-7xl xl:text-6xl lg:text-5xl sm:text-4xl text-3xl sm:mb-5 mb-4'>I am a Front-End Web Developer.</div>
-        <div className='lg:text-lg text-sm text-white'>
+        <div className='lg:text-lg text-base text-white'>
             Curently learning Backend Web Developement.
             <br/>
             Exploring Web3 and Blockchain Technology.
