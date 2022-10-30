@@ -18,7 +18,7 @@ const Experience = () => {
                   <Flip left>
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
-                    // whileTap={{ scale: 1, rotate: 10 }}
+                    whileTap={{ scale: 1.05 }}
                     className='h-72 sm:w-[350px] w-[325px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <div className='flex items-center font-semibold text-sm'><IoIosRocket className='h-6 w-6 inline-block mr-2'/>{detail.field}</div>
