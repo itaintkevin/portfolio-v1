@@ -24,3 +24,6 @@ body {
   border-radius: 14px;   
   }
 
+::-webkit-backface-visibility{
+  backface-visibility: hidden;
+}
