@@ -18,9 +18,9 @@ const Projects = () => {
           return(
                   <Flip left>
                   <motion.div 
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 1, rotate: 10 }}
-                    className='sm:h-72 h-full w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
+                    // whileHover={{ scale: 1.05 }}
+                    // whileTap={{ scale: 1, rotate: 10 }}
+                    className='h-72 sm:w-[350px] w-[325px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <a href={detail.link} className='flex items-center font-semibold text-sm'><GiBrain className='h-6 w-6 inline-block mr-2'/>VIEW DEPLOYMENT</a>
                       <a href={detail.github}><TbExternalLink className='h-6 w-6 '/></a>

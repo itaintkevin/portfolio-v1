@@ -19,7 +19,7 @@ const Experience = () => {
                   <motion.div 
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 1, rotate: 10 }}
-                    className='h-full sm:h-72 w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
+                    className='h-72 sm:w-[350px] w-[325px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <div className='flex items-center font-semibold text-sm'><IoIosRocket className='h-6 w-6 inline-block mr-2'/>{detail.field}</div>
                       <a href={detail.link}><TbExternalLink className='h-6 w-6 '/></a>
