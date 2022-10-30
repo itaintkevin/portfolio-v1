@@ -24,6 +24,6 @@ body {
   border-radius: 14px;   
   }
 
-::-webkit-backface-visibility{
-  backface-visibility: hidden;
-}
+  .no-flick{
+    -webkit-transform:translate3d(0,0,0);
+  }
