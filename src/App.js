@@ -1,4 +1,5 @@
-import { Routes, Route } from 'react-router-dom'
+import { useRef } from 'react'
+import useScrollSnap from 'react-use-scroll-snap';
 import Navbar from "./components/Navbar";
 import Socials from "./components/Socials";
 import Home from "./pages/Home";
@@ -9,21 +10,21 @@ import Footer from './components/Footer';
 
 
 function App() {
+
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
+
   return (
     <>
       <Navbar/>
       <Socials/>
-      <div className='overflow-x-hidden'>
+      <div ref={scrollRef} className='overflow-x-hidden'>
         <div><Home/></div>
         <div><Skills/></div>
         <div><Projects/></div>
         <div><Experience/></div>
         <div><Footer/></div>
       </div>
-      {/* <Routes>
-        <Route path="/" element={<Home/>        <Route path="/projects" element={<Projects/>}/>
-        <Route path="/experience" element={<Experience/>}/>
-      </Routes> */}
     </>
   );
 }

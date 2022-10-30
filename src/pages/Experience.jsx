@@ -1,17 +1,16 @@
-import React from 'react'
-import details from '../components/Experience/ExpDetails.jsx'
-import { TbExternalLink } from 'react-icons/tb'
+import details from '../components/Experience/ExpDetails.jsx';
+import { TbExternalLink } from 'react-icons/tb';
 import { IoIosRocket } from 'react-icons/io';
 
 const Experience = () => {
   return (
-    <div className='h-full w-screen flex flex-col justify-center items-center mt-20 sm:mb-24 mb-10 2xl:px-48 xl:px-52 md:px-24 sm:px-36 px-6'>
-      <div className='text-4xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mb-16'>Experience</div>
+    <div id="experience" className='h-full w-screen flex flex-col justify-center items-center mt-20 sm:mb-24 mb-10 2xl:px-48 xl:px-52 md:px-24 sm:px-36 px-6'>
+      <div className='text-4xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mt-20 mb-16'>Experience</div>
       <div className='w-full flex flex-wrap justify-center'>
       {
         details.map((detail) => {
           return(
-                  <div className='sm:h-72 h-full w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
+                  <div className='h-full sm:h-72 w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <div className='flex items-center font-semibold text-sm'><IoIosRocket className='h-6 w-6 inline-block mr-2'/>{detail.field}</div>
                       <a href={detail.link}><TbExternalLink className='h-6 w-6 '/></a>
@@ -41,4 +40,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Experience;

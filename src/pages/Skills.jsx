@@ -1,10 +1,9 @@
-import React from 'react'
-import stacks from '../components/Skills/skillsrc'
+import stacks from '../components/Skills/SkillsDetails';
 
 const Skills = () => {
   return (
-    <div className="h-full w-screen flex flex-col justify-center items-center sm:mb-48 mb-10">
-      <div className='lg:text-4xl sm:text-3xl text-2xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mb-12'>Tech I have worked with,</div>
+    <div id="skills" className="h-full w-screen flex flex-col justify-center items-center sm:mb-48 mb-10">
+      <div className='lg:text-4xl sm:text-3xl text-2xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mt-20 mb-16'>Tech I have worked with,</div>
       <div className='grid sm:gap-4 gap-2 2xl:grid-cols-9 2xl:grid-rows-2 xl:grid-cols-6 xl:grid-rows-3 grid-cols-3 grid-rows-9'>
         {
           stacks.map(item => {
@@ -21,4 +20,4 @@ const Skills = () => {
   )
 }
 
-export default Skills
+export default Skills;

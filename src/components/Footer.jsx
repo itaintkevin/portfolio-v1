@@ -1,5 +1,4 @@
-import React from 'react'
-import { GiTechnoHeart } from 'react-icons/gi'
+import { GiTechnoHeart } from 'react-icons/gi';
 
 const Footer = () => {
   return (
@@ -10,4 +9,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;

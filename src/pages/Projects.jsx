@@ -1,12 +1,11 @@
-import React from 'react'
-import details from '../components/Projects/ProjectDetails.jsx'
-import { TbExternalLink } from 'react-icons/tb'
-import { GiBrain } from 'react-icons/gi'
+import details from '../components/Projects/ProjectDetails.jsx';
+import { TbExternalLink } from 'react-icons/tb';
+import { GiBrain } from 'react-icons/gi';
 
 const Projects = () => {
   return (
-    <div className='h-full w-screen flex flex-col justify-center items-center mt-20 sm:mb-48 mb-10 2xl:px-48 xl:px-52 md:px-24 sm:px-36 px-6'>
-      <div className='text-4xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mb-16'>Projects</div>
+    <div id="projects" className='h-full w-screen flex flex-col justify-center items-center sm:mb-48 mt-20 mb-10 2xl:px-48 xl:px-52 md:px-24 sm:px-36 px-6'>
+      <div className='text-4xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mt-20 mb-16'>Projects</div>
       <div className='w-full flex flex-wrap justify-center'>
       {
         details.map((detail) => {
@@ -40,4 +39,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default Projects;

@@ -1,5 +1,4 @@
-import React from 'react'
-import dp from '../assets/pic.jpeg'
+import dp from '../assets/pic.jpeg';
 
 const Socials = () => {
   return (
@@ -15,4 +14,4 @@ const Socials = () => {
   )
 }
 
-export default Socials
+export default Socials;
