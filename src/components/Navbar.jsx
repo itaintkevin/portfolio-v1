@@ -33,10 +33,10 @@ const Navbar = () => {
               <AiOutlineClose onClick={handleNav} size={20}/>
             </div>
             <div className="flex flex-col text-xl w-full p-5">
-              <Link activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="home" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>01.</span> Home</Link>
-              <Link activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="skills" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>02.</span> Skills</Link>
-              <Link activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="projects" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>03.</span> Projects</Link>
-              <Link activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="experience" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>04.</span> Experience</Link>
+              <Link onClick={handleNav} activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="home" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>01.</span> Home</Link>
+              <Link onClick={handleNav} activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="skills" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>02.</span> Skills</Link>
+              <Link onClick={handleNav} activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="projects" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>03.</span> Projects</Link>
+              <Link onClick={handleNav} activeClass="active" spy={true} smooth={true} offset={-100} duration={500} to="experience" className="my-3 py-2 border-b border-[#7F7FD5] cursor-pointer"><span className='text-[#91EAE4]'>04.</span> Experience</Link>
             </div>
         </div>
         </Fade>
