@@ -1,16 +1,26 @@
 import details from '../components/Projects/ProjectDetails.jsx';
+import { motion } from "framer-motion";
 import { TbExternalLink } from 'react-icons/tb';
 import { GiBrain } from 'react-icons/gi';
+import Fade from 'react-reveal/Fade';
+import Flip from 'react-reveal/Flip';
+
 
 const Projects = () => {
   return (
     <div id="projects" className='h-full w-screen flex flex-col justify-center items-center sm:mb-48 mt-20 mb-10 2xl:px-48 xl:px-52 md:px-24 sm:px-36 px-6'>
+      <Fade bottom>
       <div className='text-4xl from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl mt-20 mb-16'>Projects</div>
+      </Fade>
       <div className='w-full flex flex-wrap justify-center'>
       {
         details.map((detail) => {
           return(
-                  <div className='sm:h-72 h-full w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
+                  <Flip left>
+                  <motion.div 
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 1, rotate: 10 }}
+                    className='sm:h-72 h-full w-[350px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <a href={detail.link} className='flex items-center font-semibold text-sm'><GiBrain className='h-6 w-6 inline-block mr-2'/>VIEW DEPLOYMENT</a>
                       <a href={detail.github}><TbExternalLink className='h-6 w-6 '/></a>
@@ -30,7 +40,8 @@ const Projects = () => {
                         })}
                       </div>
                     </div>
-                  </div>
+                  </motion.div>
+                  </Flip>
           )
         })
       }

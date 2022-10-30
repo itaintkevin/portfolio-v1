@@ -1,4 +1,6 @@
 import dp from '../assets/pic.jpeg';
+import Fade from 'react-reveal/Fade';
+
 
 const Socials = () => {
   return (
