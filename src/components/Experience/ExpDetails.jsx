@@ -41,7 +41,7 @@ const details = [
         name: "UNFOLD 2022",
         link: "https://www.unfold2022.com",
         duration: "August 2022",
-        workexp1: "~ Created an Crowd Funded Real Estate NFT Marketplace.",
+        workexp1: "~ Created a Crowd Funded Real Estate NFT Marketplace.",
     },
 ]
 
