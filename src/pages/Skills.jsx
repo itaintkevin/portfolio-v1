@@ -1,4 +1,4 @@
-import stacks from '../components/Skills/SkillsDetails';
+import stacks from '../data/SkillsDetails';
 import { motion } from "framer-motion";
 import Fade from 'react-reveal/Fade';
 import Bounce from 'react-reveal/Bounce';

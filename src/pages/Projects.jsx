@@ -1,4 +1,4 @@
-import details from '../components/Projects/ProjectDetails.jsx';
+import details from '../data/ProjectDetails.jsx';
 import { motion } from "framer-motion";
 import { TbExternalLink } from 'react-icons/tb';
 import { GiBrain } from 'react-icons/gi';

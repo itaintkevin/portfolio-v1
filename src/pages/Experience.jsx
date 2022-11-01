@@ -1,4 +1,4 @@
-import details from '../components/Experience/ExpDetails.jsx';
+import details from '../data/ExpDetails.jsx';
 import { motion } from "framer-motion";
 import { TbExternalLink } from 'react-icons/tb';
 import { IoIosRocket } from 'react-icons/io';
