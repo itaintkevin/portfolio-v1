@@ -30,6 +30,28 @@ const details = [
         stack: ["React.js", "TailwindCSS"]
     },
     {
+        title: "Resize",
+        about: "~ Image Resizing Application.",
+        link: "https://itaintkevin.github.io/Image-Resizer",
+        github: "https://github.com/itaintkevin/Image-Resizer",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+        stack1: "HTML",
+        stack2: "CSS",
+        stack3: "JS",
+        stack: ["HTML", "CSS", "JavaScript"]
+    },
+    {
+        title: "Click!",
+        about: "~ Camera Filters Application.",
+        link: "https://itaintkevin.github.io/Click",
+        github: "https://github.com/itaintkevin/Click",
+        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
+        stack1: "HTML",
+        stack2: "CSS",
+        stack3: "JS",
+        stack: ["HTML", "CSS", "JavaScript"]
+    },
+    {
         title: "kzforms",
         about: "~ Form Application, posts data to API Endpoint.",
         link: "https://kzforms22.vercel.app",
@@ -51,28 +73,6 @@ const details = [
         stack2: "TailwindCSS",
         stack: ["React.js","TailwindCSS"]
     },
-    {
-        title: "Resize",
-        about: "~ Image Resizing Application.",
-        link: "https://itaintkevin.github.io/Image-Resizer",
-        github: "https://github.com/itaintkevin/Image-Resizer",
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
-        stack1: "HTML",
-        stack2: "CSS",
-        stack3: "JS",
-        stack: ["HTML", "CSS", "JavaScript"]
-    },
-    {
-        title: "Click!",
-        about: "~ Camera Filters Application.",
-        link: "https://itaintkevin.github.io/Click",
-        github: "https://github.com/itaintkevin/Click",
-        img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png",
-        stack1: "HTML",
-        stack2: "CSS",
-        stack3: "JS",
-        stack: ["HTML", "CSS", "JavaScript"]
-    }
 ]
 
 
