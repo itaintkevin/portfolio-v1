@@ -1,7 +1,7 @@
 const details = [
     {
         title: "To Do List",
-        about: "~ A To Do List application",
+        about: "~ A To Do List application.",
         link: "https://birdseye.vercel.app",
         github: "https://github.com/itaintkevin/todo-app",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
@@ -10,7 +10,7 @@ const details = [
         stack: ["React.js","TailwindCSS","Firebase"]
     },
     {
-        title: "MovieLand",
+        title: "MovieMania",
         about: "~ A Movies Search Application using API Endpoint.",
         link: "https://movieland-itk.netlify.app",
         github: "https://github.com/itaintkevin/MovieLand",
