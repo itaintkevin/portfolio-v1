@@ -12,7 +12,7 @@ const details = [
     {
         title: "MovieMania",
         about: "~ A Movies Search Application using API Endpoint.",
-        link: "https://movieland-itk.netlify.app",
+        link: "https://moviemania22.vercel.app",
         github: "https://github.com/itaintkevin/MovieLand",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
