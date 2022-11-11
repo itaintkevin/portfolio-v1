@@ -20,6 +20,16 @@ const details = [
         stack: ["React.js", "CSS"]
     },
     {
+        title: "Expense Tracker",
+        about: "~ An Expense Tracker application.",
+        link: "https://expense-tracker22.vercel.app/",
+        github: "https://github.com/itaintkevin/expense-tracker",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["React.js", "Context API", "TailwindCSS"]
+    },
+    {
         title: "Google Classroom",
         about: "~ GCR Homepage Clone.",
         link: "https://gcr-homepage-clone.vercel.app",
