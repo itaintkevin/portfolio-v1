@@ -1,35 +1,13 @@
 const details = [
     {
-        title: "kzforms",
-        about: "~ Form Application, posts data to API Endpoint.",
-        link: "https://kzforms22.vercel.app",
-        github: "https://github.com/itaintkevin/kzforms",
+        title: "To Do List",
+        about: "~ A To Do List application",
+        link: "https://birdseye.vercel.app",
+        github: "https://github.com/itaintkevin/todo-app",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
         stack2: "TailwindCSS",
-        stack3: "Axios",
-        stack4: "React-Router",
-        stack: ["React.js","TailwindCSS","Axios","React-Router"]
-    },
-    {
-        title: "TEDxSRMIST",
-        about: "~ Landing Page for TEDxSRMIST Club.",
-        link: "https://tedx-srmist-landing-page.vercel.app",
-        github: "https://github.com/itaintkevin/tedx-srmist-landing-page",
-        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
-        stack1: "React.js",
-        stack2: "TailwindCSS",
-        stack: ["React.js","TailwindCSS"]
-    },
-    {
-        title: "HackTheBox SRMIST",
-        about: "~ Club Website.",
-        link: "https://hack-the-box-srmist.vercel.app",
-        github: "https://github.com/itaintkevin/hack-the-box-srmist",
-        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
-        stack1: "React.js",
-        stack2: "CSS",
-        stack: ["React.js", "CSS"]
+        stack: ["React.js","TailwindCSS","Firebase"]
     },
     {
         title: "MovieLand",
@@ -40,6 +18,28 @@ const details = [
         stack1: "React.js",
         stack2: "CSS",
         stack: ["React.js", "CSS"]
+    },
+    {
+        title: "Google Classroom",
+        about: "~ GCR Homepage Clone.",
+        link: "https://gcr-homepage-clone.vercel.app",
+        github: "https://github.com/itaintkevin/gcr-homepage-clone",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["React.js", "TailwindCSS"]
+    },
+    {
+        title: "kzforms",
+        about: "~ Form Application, posts data to API Endpoint.",
+        link: "https://kzforms22.vercel.app",
+        github: "https://github.com/itaintkevin/kzforms",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "TailwindCSS",
+        stack3: "Axios",
+        stack4: "React-Router",
+        stack: ["React.js","TailwindCSS","Axios","React-Router"]
     },
     {
         title: "Estate",
