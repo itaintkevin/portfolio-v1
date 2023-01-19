@@ -22,7 +22,7 @@ const details = [
     {
         title: "Expense Tracker",
         about: "~ An Expense Tracker application.",
-        link: "https://expense-tracker22.vercel.app/",
+        link: "https://moneyflow.vercel.app",
         github: "https://github.com/itaintkevin/expense-tracker",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
