@@ -74,22 +74,22 @@ const stacks = [
         src: yarn,
         tag: "Yarn"
     },
-    // {
-    //     src: nodejs,
-    //     tag: "Ndde.js"
-    // },
-    // {
-    //     src: express,
-    //     tag: "Express"
-    // },
-    // {
-    //     src: mongo,
-    //     tag: "MongoDB"
-    // },
-    // {
-    //     src: mongoose,
-    //     tag: "Mongoose"
-    // },
+    {
+        src: nodejs,
+        tag: "Node.js"
+    },
+    {
+        src: express,
+        tag: "Express"
+    },
+    {
+        src: mongo,
+        tag: "MongoDB"
+    },
+    {
+        src: mongoose,
+        tag: "Mongoose"
+    },
     {
         src: reactjs,
         tag: "React.js"
@@ -98,10 +98,10 @@ const stacks = [
         src: nextjs,
         tag: "Next.js"
     },
-    // {
-    //     src: firebase,
-    //     tag: "Firebase"
-    // },
+    {
+        src: firebase,
+        tag: "Firebase"
+    },
     {
         src: netlify,
         tag: "Netlify"
@@ -118,9 +118,9 @@ const stacks = [
         src: mysql,
         tag: "MySQL"
     },
-    // {
-    //     src: postman,
-    //     tag: "Postman"
-    // },
+    {
+        src: postman,
+        tag: "Postman"
+    },
 ]
 export default stacks;
