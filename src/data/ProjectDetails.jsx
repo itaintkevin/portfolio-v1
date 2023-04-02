@@ -20,9 +20,39 @@ const details = [
         stack: ["Next.js", "TypeScript", "TailwindCSS", "SanityCMS", "Swiper.js"]
     },
     {
+        title: "Enigma",
+        about: "~ One-time secrets message generator to share your private and secret info safely over the internet.",
+        link: "https://enigma.kevinpaul.xyz",
+        github: "https://github.com/itaintkevin/enigma",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["React.js", "Vite", "TailwindCSS", "Firebase", "Crypto.js"]
+    },
+    {
+        title: "Altruize",
+        about: "~ Decentralized NGO Donations Platform for safe and secure transactions, built for ETHforAll hackathon.",
+        link: "https://altruize.vercel.app",
+        github: "https://github.com/itaintkevin/Altruize",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["Next.js", "TypeScript", "TailwindCSS", "Solidity", "RainbowKit", "Hardhat"]
+    },
+    {
+        title: "MovieMania",
+        about: "~ A Movies Search Application using API Endpoint.",
+        link: "https://moviemania22.vercel.app",
+        github: "https://github.com/itaintkevin/MovieLand",
+        img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
+        stack1: "React.js",
+        stack2: "CSS",
+        stack: ["React.js", "CSS"]
+    },
+    {
         title: "Expense Tracker",
         about: "~ An Expense Tracker application.",
-        link: "https://moneyflow.vercel.app",
+        link: "https://expense-tracker22.vercel.app/",
         github: "https://github.com/itaintkevin/expense-tracker",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
