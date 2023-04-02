@@ -79,7 +79,7 @@ const details = [
     //     stack2: "CSS",
     //     stack: ["React.js", "TailwindCSS"]
     // },
-    // {
+    {
         title: "Resize",
         about: "~ Image Resizing Application.",
         link: "https://itaintkevin.github.io/Image-Resizer",
