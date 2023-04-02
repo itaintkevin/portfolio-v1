@@ -1,13 +1,29 @@
 const details = [
     {
+        field: "INTERNSHIP", 
+        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092100022906142821/logo-png-square.webp",
+        name: "Codelance Devs",
+        link: "https://codelancedevs.com",
+        duration: "Feb 2023 - Present",
+        workexp1: "~ Full Stack Developer Intern.",
+    },
+    {
+        field: "INTERNSHIP", 
+        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092101830378536980/download_1.jpeg",
+        name: "Rentyaar",
+        link: "https://www.rentyaar.com/?search=all",
+        duration: "Feb 2023 - Present",
+        workexp1: "~ Frontend Developer Intern.",
+    },
+    {
         field: "STUDENT CHAPTER", 
         logo: "https://snehil.dev/images/experience/ieee.png",
         name: "IEEE SRMIST",
         link: "https://www.instagram.com/ieeesrmist",
         duration: "April 2022 - Present",
-        workexp1: "~ Member at Web & App Team.",
-        workexp2: "~ Worked on Club Projects.",
-        workexp3: "~ Mentored attendies on Club Events."
+        workexp1: "~ Technical Team Lead at Web & App Team.",
+        workexp2: "~ Working on Internal Club Projects.",
+        workexp3: "~ Mentored aspiring developers at Webture - Full Stack Developer Bootcamp."
     },
     {
         field: "COLLEGE CLUB", 
@@ -16,7 +32,7 @@ const details = [
         link: "https://www.instagram.com/tedxsrmist",
         duration: "August 2022 - Present",
         workexp1: "~ Member at Technical Team.",
-        workexp2: "~ Worked on Club Projects.",
+        workexp2: "~ Working on Internal Club Projects.",
     },
     {
         field: "OPENSOURCE PROGRAM", 
@@ -24,16 +40,17 @@ const details = [
         name: "GirlScript SoC'22",
         link: "https://gssoc.girlscript.tech",
         duration: "March 2022 - May 2022",
-        workexp1: "~ Worked on 2 proejcts that were successfully merged into the Main Project Repository.",
+        workexp1: "~ Worked on 2 proejcts and 3 PRs merged.",
         workexp2: "~ Reached above 150 Rank in PR Merge Ranklist."
     },
     {
         field: "HACKATHON", 
-        logo: "https://hackoheist.devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fb107fe2300b448648beb001354fb4e67%2Fassets%2Ffavicon%2F274.png&w=1440&q=75",
-        name: "HackOHeist",
-        link: "https://hackoheist.live",
-        duration: "August 2022",
-        workexp1: "~ Worked on a Medical Appointment and Health Tracking App."
+        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092097697697243187/download.jpeg",
+        name: "Buildspace Bounties Winner",
+        link: "https://buildspace-bounty.vercel.app",
+        duration: "Jan 2023",
+        workexp1: "~ Designed a Buildspace Bounties Landing Page.",
+        workexp2: "~ Won $200 for best project."
     },
     {
         field: "WEB3 EVENT", 
