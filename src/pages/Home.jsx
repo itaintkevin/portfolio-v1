@@ -9,7 +9,7 @@ const Home = () => {
         <div className='from-[#7F7FD5] via-[#86A8E7] to-[#91EAE4] text-transparent bg-clip-text bg-gradient-to-r drop-shadow-2xl xl:text-8xl lg:text-7xl sm:text-6xl text-5xl sm:my-4 my-2'>Kevin Paul.</div>
         <div className='text-[#91EAE4] 2xl:text-7xl xl:text-6xl lg:text-5xl sm:text-4xl text-3xl sm:mb-5 mb-4'>I am a Full-Stack Developer.</div>
         <div className='lg:text-lg text-base text-white'>
-            Currently learning Solidity and Blochain Development.
+            Currently learning Solidity and Blockchain Development.
             <br/>
             Exploring Web3 and Blockchain Technology.
             <br/>
