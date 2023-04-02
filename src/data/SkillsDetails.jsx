@@ -22,8 +22,9 @@ export const vercel = require("../assets/skills/vercel.png");
 export const python = require("../assets/skills/python.png");
 export const mysql = require("../assets/skills/mysql.png");
 export const postman = require("../assets/skills/postman.png");
-
-
+export const sanity = require("../assets/skills/sanity.png");
+export const vite = require("../assets/skills/vite.png");
+export const redux = require("../assets/skills/redux.png");
 
 const stacks = [
     {
@@ -75,6 +76,10 @@ const stacks = [
         tag: "Yarn"
     },
     {
+        src: vite,
+        tag: "Vite"
+    },
+    {
         src: nodejs,
         tag: "Node.js"
     },
@@ -99,8 +104,16 @@ const stacks = [
         tag: "Next.js"
     },
     {
+        src: redux,
+        tag: "Redux"
+    },
+    {
         src: firebase,
         tag: "Firebase"
+    },
+    {
+        src: sanity,
+        tag: "Sanity"
     },
     {
         src: netlify,
