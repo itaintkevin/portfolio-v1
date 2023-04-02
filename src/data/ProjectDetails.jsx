@@ -1,13 +1,13 @@
 const details = [
     {
-        title: "To Do List",
-        about: "~ A To Do List application.",
-        link: "https://birdseye.vercel.app",
-        github: "https://github.com/itaintkevin/todo-app",
+        title: "Ticker",
+        about: "~ Personal Task Management Application",
+        link: "https://ticker.kevinpaul.xyz",
+        github: "https://github.com/itaintkevin/ticker-client",
         img: "https://cdn-images-1.medium.com/max/280/1*lKN9xV1YEin-2wfAiGySBA.png",
         stack1: "React.js",
         stack2: "TailwindCSS",
-        stack: ["React.js","TailwindCSS","Firebase"]
+        stack: ["Next.js", "JavaScript", "Redux-Toolkit", "Node.js", "Express.js", "MongoDB"]
     },
     {
         title: "MovieMania",
