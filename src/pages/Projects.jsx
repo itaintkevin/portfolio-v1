@@ -20,7 +20,7 @@ const Projects = () => {
                   <motion.div 
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 1.05 }}
-                    className='h-80 sm:w-[350px] w-[325px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
+                    className='h-96 sm:h-80 sm:w-[350px] w-[325px] rounded-xl bg-[#242733] xl:m-5 m-3 p-5'>
                     <div className='flex justify-between my-2'>
                       <a href={detail.link} className='flex items-center font-semibold text-sm'><GiBrain className='h-6 w-6 inline-block mr-2'/>VIEW DEPLOYMENT</a>
                       <a href={detail.github}><TbExternalLink className='h-6 w-6 '/></a>
