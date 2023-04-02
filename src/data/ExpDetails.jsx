@@ -6,6 +6,8 @@ const details = [
         link: "https://codelancedevs.com",
         duration: "Feb 2023 - Present",
         workexp1: "~ Full Stack Developer Intern.",
+        workexp2: "~ Worked on 2 freelance projects.",
+        workexp3: "~ Collaborated with team to develop fast and elegant websites."
     },
     {
         field: "INTERNSHIP", 
@@ -14,6 +16,26 @@ const details = [
         link: "https://www.rentyaar.com/?search=all",
         duration: "Feb 2023 - Present",
         workexp1: "~ Frontend Developer Intern.",
+        workexp2: "~ Collaborated with team to redesign website.",
+        workexp3: "~ Collaborated with team to upgrade architecture."
+    },
+    {
+        field: "HACKATHON", 
+        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092097697697243187/download.jpeg",
+        name: "Buildspace Bounties Winner",
+        link: "https://buildspace-bounty.vercel.app",
+        duration: "Jan 2023",
+        workexp1: "~ Designed a Buildspace Bounties Landing Page.",
+        workexp2: "~ Won $200 for best project."
+    },
+    {
+        field: "OPENSOURCE PROGRAM", 
+        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092102679041421392/27850350.png",
+        name: "GirlScript SoC'22",
+        link: "https://gssoc.girlscript.tech",
+        duration: "March 2022 - May 2022",
+        workexp1: "~ Worked on 2 proejcts and 3 PRs merged.",
+        workexp2: "~ Reached above 150 Rank in PR Merge Ranklist."
     },
     {
         field: "STUDENT CHAPTER", 
@@ -33,24 +55,6 @@ const details = [
         duration: "August 2022 - Present",
         workexp1: "~ Member at Technical Team.",
         workexp2: "~ Working on Internal Club Projects.",
-    },
-    {
-        field: "OPENSOURCE PROGRAM", 
-        logo: "https://media-exp1.licdn.com/dms/image/C510BAQGSObrO0QPlMQ/company-logo_200_200/0/1555704980721?e=2147483647&v=beta&t=JjmObXiOOQwgANdMb1DX6LQtRg_qkE3Uo-MEakBT9uU",
-        name: "GirlScript SoC'22",
-        link: "https://gssoc.girlscript.tech",
-        duration: "March 2022 - May 2022",
-        workexp1: "~ Worked on 2 proejcts and 3 PRs merged.",
-        workexp2: "~ Reached above 150 Rank in PR Merge Ranklist."
-    },
-    {
-        field: "HACKATHON", 
-        logo: "https://cdn.discordapp.com/attachments/918024642860548126/1092097697697243187/download.jpeg",
-        name: "Buildspace Bounties Winner",
-        link: "https://buildspace-bounty.vercel.app",
-        duration: "Jan 2023",
-        workexp1: "~ Designed a Buildspace Bounties Landing Page.",
-        workexp2: "~ Won $200 for best project."
     },
     {
         field: "WEB3 EVENT", 
